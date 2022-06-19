@@ -6,21 +6,29 @@ Local Development
 Install Docker
 > https://docs.docker.com/desktop/mac/install/
 
+Install VSCode with Remote-Containers & Live-share extensions
+> https://code.visualstudio.com/
+> https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers
+> https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare
+
 Checkout code
 
     git clone git@github.com:drrandal/BransonTablerockOasis.git
     cd BransonTablerockOasis
 
-Build dev image
+Open VSCode in dev container mode
+    code .
+    # inside VSCode command pallet
+    > remote-containers.openWorkspace
 
-    docker build -t bto .
+Install dependencies
+    pip install -r requirements.txt
 
-Run dev image to build site
+Build site
 
-    docker run --rm -it -v `pwd`:/opt/BransonTablerockOasis -t bto
     python build.py
 
-Preview changes in browser (outside of container)
+Preview changes in browser (outside of container, separate terminal)
 
     open build/index.html
 
