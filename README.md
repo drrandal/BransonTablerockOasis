@@ -16,6 +16,8 @@ Checkout code
     git clone git@github.com:drrandal/BransonTablerockOasis.git
     cd BransonTablerockOasis
 
+Start Docker first
+
 Open VSCode in dev container mode
     code .
     # inside VSCode command pallet
@@ -31,6 +33,7 @@ Build site
 Preview changes in browser (outside of container, separate terminal)
 
     open build/index.html
+    file:///Users/randysmithphd/Documents/Archived/Websites/BransonTablerockOasis/build/index.html
 
 Publish to gh-pages
 
