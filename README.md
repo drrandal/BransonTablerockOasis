@@ -26,14 +26,22 @@ Open VSCode in dev container mode
 Install dependencies
     pip install -r requirements.txt
 
+Make Changes then:
+Save all
+
+Any changes y media: git add .
+
 Build site
 
     python build.py
 
 Preview changes in browser (outside of container, separate terminal)
 
-    open build/index.html
     file:///Users/randysmithphd/Documents/Archived/Websites/BransonTablerockOasis/build/index.html
+
+git commit -am 'comment'
+
+git push
 
 Publish to gh-pages
 
