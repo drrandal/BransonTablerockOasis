@@ -26,6 +26,8 @@ Open VSCode in dev container mode
 Install dependencies
     pip install -r requirements.txt
 
+git pull / or in the "source control" on the menu left do sync push-pull
+
 Make Changes then:
 Save all
 
