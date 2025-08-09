@@ -37,7 +37,7 @@ Build site
 
     python build.py
 
-Preview changes in browser (outside of container, separate terminal)
+Preview changes in browser (outside of container, separate terminal) copy and paste this...>
 
     file:///Users/randysmithphd/Documents/Archived/Websites/BransonTablerockOasis/build/index.html
 
